@@ -4,7 +4,7 @@
 """
 import numpy
 from scipy.linalg import eig as geig
-import riemann
+import riemann as rie
 from sklearn.base  import BaseEstimator, ClassifierMixin, TransformerMixin
 ###############################################################################
 class XdawnCovariances(BaseEstimator,TransformerMixin):
