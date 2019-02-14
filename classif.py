@@ -2,7 +2,7 @@
 """
 @author: alexandrebarachant
 """
-import numpy
+import numpy as np
 from scipy.linalg import eig as geig
 import riemann as rie
 from sklearn.base  import BaseEstimator, ClassifierMixin, TransformerMixin
